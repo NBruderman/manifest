@@ -18,6 +18,10 @@
   <remote  name="cm"
            fetch="git://github.com"
            review="review.cyanogenmod.org" />
+           
+  <remote  name="cm2"
+           fetch="git://github.com/CyanogenMod"
+           review="review.cyanogenmod.org" />
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
