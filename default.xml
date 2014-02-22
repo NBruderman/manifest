@@ -426,8 +426,8 @@
   <project path="hardware/samsung_slsi/exynos5410" name="CyanogenMod/android_hardware_samsung_slsi_exynos5410" remote="cm" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/exynos5-insignal" name="CyanogenMod/android_hardware_samsung_slsi_exynos5-insignal" remote="cm" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/openmax" name="CyanogenMod/android_hardware_samsung_slsi_openmax" remote="cm" revision="cm-11.0" />
-  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="cm" revision="cm-11.0" />
-  <project path="hardware/samsung" name="Alberto96/android_hardware_samsung" remote="cm" revision="cm-11.0" />
+  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
+  <project path="hardware/samsung" name="Alberto96/android_hardware_samsung" remote="github" revision="cm-11.0" />
   <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="github" revision="kitkat" >
   <copyfile src="build.sh" dest="rom-build.sh" />    
   </project>
