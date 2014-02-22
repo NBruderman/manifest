@@ -288,7 +288,6 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="github" revision="kitkat" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="libcore" name="AOSPA/android_libcore" remote="github" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -420,7 +419,6 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
-  <project path="hardware/samsung" name="Alberto96/android_hardware_samsung" remote="github" revision="cm-11.0" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="device/samsung/i9500" name="NBruderman/android_device_samsung_i9500" remote="github" revision="cm-11.0-testing" />
   <project path="kernel/samsung/exynos5410" name="CyanogenMod/android_kernel_samsung_exynos5410" remote="cm" revision="cm-11.0" />
