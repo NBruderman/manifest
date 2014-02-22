@@ -10,7 +10,7 @@
            review="gerrit.paranoidandroid.co" />
 
   <remote  name="blobs"
-           fetch="https://github.com/ThankYouMario" />
+           fetch="https://github.com/" />
 
   <remote  name="paranoid"
            fetch="ssh://git@bitbucket.org/paranoidandroid/" />
