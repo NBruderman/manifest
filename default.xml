@@ -25,7 +25,7 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="manifest" name="AOSPA-legacy/manifest" remote="github" revision="kitkat" />
+  <project path="manifest" name="NBruderman/manifest" remote="github" revision="kitkat" />
 
   <project path="build" name="AOSPA-legacy/android_build" remote="github" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -437,8 +437,8 @@
   <project path="hardware/samsung_slsi/exynos" name="CyanogenMod/android_hardware_samsung_slsi_exynos" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-11.0" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-11.0" />
-  <project path="vendor/pa" name="NBruderman/android_vendor_pa" remote="github" revision="kitkat" >
-  <copyfile src="build.sh" dest="rom-build.sh" />    
+  <project path="vendor/pa" name="AOSPA-legacy/android_vendor_pa" remote="github" revision="kitkat" >
+    <copyfile src="build.sh" dest="rom-build.sh" />    
   </project>
 
 
